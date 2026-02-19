@@ -1,6 +1,6 @@
 # SQL-Retailer-Performance-Analytics
 SQL Retailer Performance Analytics (Project 2)
-📖 Overview
+**Overview**
 
 This project focuses on analyzing retailer performance using SQL Server.
 
@@ -18,7 +18,7 @@ Order statistics via views
 
 All analysis was implemented in T-SQL (SQL Server).
 
-🎯 Business Questions Answered
+**Business Questions Answered**
 
 Which retailers have the highest credit limits?
 
@@ -30,7 +30,7 @@ What is the latest order activity for HoReCa retailers in Abuja?
 
 What is the total and delivered GMV per retailer?
 
-🛠 Technical Skills Demonstrated
+**Technical Skills Demonstrated**
 
 CRUD Operations (INSERT, UPDATE, DELETE)
 
@@ -50,7 +50,7 @@ NULL handling
 
 Data validation logic
 
-🧠 Sample SQL Highlights
+ **Sample SQL Highlights**
 ✔ Top 20 Retailers by Credit Limit
 SELECT TOP 20 BusinessName, CreditLimit
 FROM Retailers
@@ -76,7 +76,7 @@ LEFT JOIN SalesOrders S
     ON R.RetailerID = S.RetailerID
 GROUP BY R.RetailerID, R.BusinessName;
 
-📊 Key Business Insights
+ **Key Business Insights**
 
 Identified inactive retailers (zero orders)
 
@@ -86,22 +86,6 @@ Monitored HoReCa performance in Abuja (FCT)
 
 Evaluated credit exposure across states
 
-Built reusable performance view for dashboards
+Built reusable performance view for dashboards.
 
-🧩 Why This Project Matters
 
-This project demonstrates:
-
-✔ Commercial risk monitoring
-✔ Channel-based segmentation
-✔ Customer lifecycle analysis
-✔ Performance tracking logic
-✔ SQL-based business intelligence thinking
-
-This is directly applicable to:
-
-Retail distribution analytics
-
-FMCG supply chain analytics
-
-Oil & Gas downstream distribution monitoring
