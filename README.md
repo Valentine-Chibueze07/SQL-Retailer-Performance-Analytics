@@ -1,5 +1,6 @@
 # SQL-Retailer-Performance-Analytics
-SQL Retailer Performance Analytics (Project 2)
+SQL Retailer Performance Analytics 
+
 **Overview**
 
 This project focuses on analyzing retailer performance using SQL Server.
